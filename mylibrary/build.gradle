@@ -25,7 +25,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
-group = ' com.example.mylibrary' // Change this to match your package name
+group = 'com.example.little_library' // Change this to match your package name
 version = '1.0' // Change this to match your version number
 
 task generateSourcesJar(type: Jar) {
@@ -57,12 +57,12 @@ bintray {
         name = 'com.example.little_library'
 
         version {
-            name = '1.0.1-tuts'
-            desc = 'My test upload'
-            released  = new Date()
-            vcsTag = '1.0.1'
+            name = 'add1'
+            desc = 'add upload'
+            released  = 21/12/2015
+            vcsTag = '1.0'
         }
-
+       
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/Nishtha7/add.git'
         websiteUrl = 'https://github.com/Nishtha7/add'
